@@ -1,0 +1,7 @@
+machine:
+  environment:
+    RAILS_ENV: test
+
+dependencies:
+  bundler:
+    without: [production, osx]
